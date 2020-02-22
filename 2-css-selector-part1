@@ -1,0 +1,4 @@
+1. select by tag name: p {}
+2. select by id: #id {}
+3. select by class name: .class {}
+4. select a group: p, #id, H1 {}
