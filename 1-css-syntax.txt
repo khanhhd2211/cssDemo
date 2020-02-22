@@ -1,0 +1,12 @@
+selector 
+{color:blue; font-size:12px}
+terms
+- Selector
+-Attribute
+-Attribute value
+-Attribute name
+
+
+Challenges:
++ remember attribute names + value;
++ remember syntax
