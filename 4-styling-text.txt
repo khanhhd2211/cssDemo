@@ -1,0 +1,14 @@
+1- color: (đổi màu chữ)
+2- text-align: center | left | right | justify
+3- text-decoration: none | underline | overline | line-through (thường dùng cho đường link) (code hinding JS fidle)
+4- text-transform: uppercase | lowercase | capitalize 
+5- text-indent (thụt vào lề cho đoạn văn bản)
+6- text-shadow: x y blur color
+7- letter-spacing: -px
+8- word-spacing: -px
+9- line-height: -px
+
+-> chrome developer tool
+
+
+

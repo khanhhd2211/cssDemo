@@ -4,3 +4,15 @@
 - rgb()
 - rgba()
 - #000
+
+4-styling-text
+
+- color
+- text-align
+- text-decoration
+- text-indent
+- text-shadow
+- text-transform
+- letter-spacing
+- word-spacing
+- line-height
