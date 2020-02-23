@@ -1,0 +1,14 @@
+->viết ở thẻ <head>
+1. internal css 
+<style>
+	h1 {
+
+	}
+</style>
+
+2 inline css
+<p style="color:red;" >Hello, World!</p>
+
+3 external css 
+
+<link rel="stylesheet" type="text/css" href="style.css">
