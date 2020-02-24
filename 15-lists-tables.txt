@@ -1,0 +1,16 @@
+lists
+
+ul (unordered lists)
+
+- list-style-type: disc*, circle, none, square;
+
+ol (ordered lists)
+
+-list-style-type: demical | upper-roman | lower-alpha
+
+
+tables
+
+border-collapse: collapse;
+tr:hover {}
+tr:ntn-child(even) {}
