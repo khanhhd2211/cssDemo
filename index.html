@@ -6,8 +6,14 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<div class="list-item">List Item</div>
-	<div class="list-item">List Item</div>
-	<div class="list-item">List Item</div>
+<div id="list-item"></div>
+<script>
+	var listItem = document.getElementById('list-item');
+	var str = '';
+	for (let i = 1; i <= 20; i++) {
+		str += '<div style="text-transform:capitalize;" class="list-item" id="item-' + i + '">item ' + i + '</div>'
+	}
+	listItem.innerHTML = str;
+</script>
 </body>
 </html>

@@ -1,0 +1,7 @@
+google-pattern:
+- abstract pattern
+
+
+background-image: url('')
+backgorund-repeat: no-repeat | repeat* | repeat-x | repeat-y
+background-size: -px

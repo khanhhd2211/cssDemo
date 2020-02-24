@@ -2,4 +2,4 @@ margin: all
 margin-top:
 margin-left
 margin-right
-margit-bot
+margit-bottom
