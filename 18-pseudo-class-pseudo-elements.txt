@@ -1,0 +1,41 @@
+pseudo-class
+
+:link : select unvisited links
+:visited :
+:hover : selects links on mouse over
+:active : select the active link
+:checked : select any check input element
+:disabled : select any disabled element
+:enabled : select any enabled element
+:empty : select any element that no children
+:first-child : selects every <p> elements that is the first child of its parent
+:first-of-type: selects every <p> element that is the first <p> element of its parrent
+:focus : selects the <input> element that has focus
+:in-range : selects <input> elements with a value with a specified range
+:out-of-range: selects <input> elements with a value out side a specified range
+:valid : selects all <input> elements with a valid value
+:invalid : selects all <input> elements with an invalid value
+:lang(language): selects every <p> element with a lang attribute value starting with ".."
+:last-child: selects every <p> elements that is the last child of its parent
+:last-of-type : selects every <p> element that is the last <p> elememt of its parent
+:not(selector) : selects every element that is not a <> element
+:nth-child : selects every <p> element child of its parent
+:nth-last-child : selects erevy <p> element that is the second child of its parent, counting from the last child
+:nth-last-of-type :
+:nth-of-type :
+:only-child :
+:only-of-type :
+:optional : selects <input> with no require attribute
+:read-only : selects <input> elements with a "readonly" attribute specified
+:read-write: selects <input> elements with no "readonly"
+:require : selects <input> elements with a "require" attribute specified
+:root : selects the document's root element
+:target : selects the current active #news element (cilcked on a URL containing that anchor name)
+
+pseudo-elements
+
+::first-line : selects the first line of each <p> element
+::first-letter : selects the first letter of each <p> element
+::before {content: :} : insert before
+::after {content: ;} : insert after
+::selection : Selects the portion of an element that is selected by a user
