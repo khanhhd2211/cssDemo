@@ -1,0 +1,5 @@
+inline - block
+
+- inline không chỉnh được margin-top | margin-bottom và width, height
+- block chiếm cả 1 hàng
+- display: inline | block

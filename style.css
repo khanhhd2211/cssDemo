@@ -1,12 +1,16 @@
+.inline {
+	display: block;
+}
 #button {
 	color: #333;
 	font-family: arial;
-	font-size: 34px;
+	font-size: 34spx;
 }
 #button:link {
 	background-color: #fff;
 	text-decoration: none;
 	padding: 10px 20px;
+	margin-top: 20px;
 	border: #333 solid 2px;
 	border-radius: 10px;
 }
