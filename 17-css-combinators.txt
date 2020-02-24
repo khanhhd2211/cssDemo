@@ -1,0 +1,3 @@
+(<): chọn các phần tử con, không chọn phần tử cháu
+(+): chọn phần tử tiếp theo cùng class với phần tử dc chọn
+(~): chọn phần tử còn lại cùng class với phần tử được chọn

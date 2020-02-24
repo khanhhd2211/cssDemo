@@ -1,21 +1,7 @@
-.inline {
-	display: block;
+body {
+	font-family: arial, sans-serif;
 }
-#button {
-	color: #333;
-	font-family: arial;
-	font-size: 34spx;
-}
-#button:link {
-	background-color: #fff;
-	text-decoration: none;
-	padding: 10px 20px;
-	margin-top: 20px;
-	border: #333 solid 2px;
-	border-radius: 10px;
-}
-#button:hover {
-	background-color: #333;
-	color: #fff;
-	border: #333 solid 2px ;
+
+.list-2 .item-1 ~ .item {
+	border: 1px solid #333;
 }
