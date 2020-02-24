@@ -4,4 +4,6 @@ google-pattern:
 
 background-image: url('')
 backgorund-repeat: no-repeat | repeat* | repeat-x | repeat-y
-background-size: -px
+background-size: cover | auto | width height | contain | % | initial | inherit
+background-position: right | left | top | center | x y
+background-attachment: scroll* | fixed | local | initial | inherit
