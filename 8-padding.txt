@@ -1,0 +1,8 @@
+padding: all
+padding: top left bot right
+padding: top left-right bot
+padding: top-bot left-right
+padding-top:
+padding-bottom:
+padding-left:
+padding-right:

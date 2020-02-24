@@ -16,3 +16,12 @@
 - letter-spacing
 - word-spacing
 - line-height
+
+6- custom fonts
+- font-family
+- font-style
+- font-size
+- font-weight
+
+8-padding
+9-margin

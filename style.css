@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
 
-p {
-	text-shadow: 0 0 12px red;
+.list-item {
+	text-shadow: 1px 1px 1px red, 0 0 12px blue;
 	font-size: 26px;
 	font-family: 'Trade Winds', sans-serif;
 	text-transform: capitalize;
 	color: blue;
+	padding: 12px; 
+	margin-bottom: 12px
 }
