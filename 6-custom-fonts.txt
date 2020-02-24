@@ -1,0 +1,9 @@
+1. font-family: 'arial', sans-serif;
+2. font-style: normal, italic;
+3. font-size: 12px;
+4. font-weight: normal, bold, bolder, lighter, 100-900
+
+
+- google font
+- font-face
+-adobe tool kits

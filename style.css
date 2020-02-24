@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
 p {
 	text-shadow: 0 0 12px red;
-	font-size: 20px;
+	font-size: 26px;
+	font-family: 'Trade Winds', sans-serif;
 	text-transform: capitalize;
+	color: blue;
 }
