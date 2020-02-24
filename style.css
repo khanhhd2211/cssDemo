@@ -1,7 +1,8 @@
-body {
-	font-family: arial, sans-serif;
-}
-
-.list-2 .item-1 ~ .item {
-	border: 1px solid #333;
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 130px;
+	background-color: #aaa;
+	align-items: center;
+	justify-content: space-evenly;
 }
