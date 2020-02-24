@@ -1,0 +1,22 @@
+syntax
+
+border-width: 1px
+border-style: solid | dotted | dashed | ...
+border-color: red
+border-radius: 2px
+
+Shorthand:
+
+border: width style color;
+
+note:
+border-width: top right bottom left
+border-width: top right-left bottom
+border-width: top-bottom left-right
+
+border-top-width: 1px
+border-right-width: 1px
+border-left-width: 1px
+border-bottom-width: 1px 
+
+
