@@ -1,0 +1,1 @@
+flex-shrink: 1* | <number>
