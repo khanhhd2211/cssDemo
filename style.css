@@ -1,23 +1,21 @@
 body{
+	font-family: arial;
+	font-weight: bold;
 	margin: 0;
 }
-.container {
+.link {
+	justify-content: center;
+	align-items: center;
 	display: flex;
-	flex-direction: row;
-	height: 60px;
-	background-color: #aaa;
-	align-items: stretch;
-	justify-content: space-evenly;
-	margin: 0;
+	width: 300px;
+	height:120px;
+	background-color: #4f9bc7a6;
 }
-.child-1 {
-	background: #f00;
-	flex-grow: 1;
+.link:link {
+	text-decoration: none;
+	font-size: 36px;
+	color:black;
 }
-.child-2 {
-	background: #0f0;
-	flex-grow: 1;
-}
-.container-1 .child-1{
-	order: 1;
+.link:hover {
+	background-color: #0041a2a6;
 }

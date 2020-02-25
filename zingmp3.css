@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+.layout {
+	display: flex
+}
+.first {
+	background-image: url('https://i.ytimg.com/vi/NtKX__-qPSI/maxresdefault.jpg');
+	background-size: cover;
+	padding-top: 50px;
+	color: white;
+}
+.weekly-item .overlay {
+	height: 128px;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	border-bottom: 1px solid #dadada;
+	background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+}
+.weekly-item {
+	display: flex;
+	width: 318px;
+	height: 77px;
+	align-items: flex-end;
+	border-bottom: 1px solid #dadada;
+}
+.weekly-item .number {
+	flex-basis: 40px;
+	padding-left: 5px;
+	font-size: 25px;
+	padding-bottom: 25px;
+}
+.weekly-item .info {
+	flex-grow: 1;
+	padding-bottom: 17px;
+}
+.weekly-item .view-count {
+	color: #a9a9a9;
+	font-size: 14px;
+	padding-right: 7px;
+	padding-bottom: 30px; 
+}
+.weekly-item .artis-name {
+	color: #a9a9a9;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.weekly-item .song-name {
+	font-size: 15px;
+}
+.all-playlist {
+	margin-left: 25px;
+	display: flex;
+}
+.all-playlist .playlist {
+	display: flex;
+	flex-direction: column;
+	height: 244px;
+	width: 172px;
+	background-color: #2d2d2d;
+	border-radius: 13px;
+	align-items: center;
+	justify-content: center;
+}
+.playlist .playlist-img {
+	width: 130px;
+	height: 130px;
+	background-image: url('https://i.scdn.co/image/ab67706f00000002f4d09e0efa3fe65e3d9365a7');
+	background-size: contain;
+}
+.playlist .song-name {
+	font-family: 'Hammersmith One',  sans-serif;
+	color: white;
+	margin-top: 17px;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.playlist .des {
+	font-size: 12px;
+	color: #b1b1b1;
+}
+.full-pl {
+	width: 172px;
+	height: 244px;
+	border-radius: 13px;
+	margin:  13px 25px 25px 0;
+}
+.play-btn {
+	width: 72PX;
+	height: 72px;
+	background-image: url('./button-01.svg');
+	background-repeat: no-repeat;
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 74px;
+	left: 98px;
+	opacity: 0;
+}
+.full-pl:hover .play-btn {
+	opacity: 1;
+}
