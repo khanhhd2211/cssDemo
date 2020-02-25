@@ -3,22 +3,22 @@ body{
 }
 .container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	height: 130px;
 	background-color: #aaa;
-	align-items: center;
+	align-items: stretch;
 	justify-content: space-evenly;
 	margin: 0;
 }
 .child-1 {
 	background: #f00;
-	flex-basis: 120px;
+	flex-basis: 40px;
 }
 .child-2 {
 	background: #0f0;
-	flex-basis: 150px;
+	flex-grow: 1;
 }
 .child-3 {
 	background: #00f;
-	flex-basis: 160px;
+	flex-basis: 60px;
 }
