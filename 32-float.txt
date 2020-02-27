@@ -1,0 +1,8 @@
+float: left | right 
+clear: left | right | both
+
+selector::after {
+	content: '';
+	display: block;
+	clear: both;
+}
