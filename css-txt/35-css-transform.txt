@@ -3,3 +3,5 @@
 - scale
 - skew (làm biến dạng)
 - matrix
+
+transform: scale(1);
