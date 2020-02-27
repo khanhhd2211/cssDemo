@@ -1,0 +1,1 @@
+element, pseudo element < class, pseudo class < id < inline css < !important
