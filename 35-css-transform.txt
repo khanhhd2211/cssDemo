@@ -1,0 +1,5 @@
+- translate
+- rotate
+- scale
+- skew (làm biến dạng)
+- matrix
