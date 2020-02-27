@@ -1,0 +1,2 @@
+1em bằng độ lớn ngang với parent hiện tại
+1rem bằng với độ lớn của :root (html)
